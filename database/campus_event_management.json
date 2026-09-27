@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Rivera",
+      "email": "student1@college.edu",
+      "password": "$2b$10$CZ.JgKwdUwNb4ZGMnOaBOu5khMOOJMIPt4.qCMIHRHWmd7iBcUscS",
+      "role": "STUDENT",
+      "phone": "555-0101",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "email": "student2@college.edu",
+      "password": "$2b$10$CZ.JgKwdUwNb4ZGMnOaBOu5khMOOJMIPt4.qCMIHRHWmd7iBcUscS",
+      "role": "STUDENT",
+      "phone": "555-0102",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Robert Chen",
+      "email": "faculty@college.edu",
+      "password": "$2b$10$CZ.JgKwdUwNb4ZGMnOaBOuMo8dmw6djzf8bMowHErpkkaF9H5u642",
+      "role": "FACULTY",
+      "phone": "555-0103",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 4,
+      "name": "Prof. Eleanor Vance",
+      "email": "admin@college.edu",
+      "password": "$2b$10$CZ.JgKwdUwNb4ZGMnOaBOuFyuCRPQ4FYDxRbRY2P.yFGzIG87eKRG",
+      "role": "ADMIN",
+      "phone": "555-0104",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "HackCampus 2026: 24-Hour AI & Web Hackathon",
+      "description": "Join 200+ top college innovators to build AI-powered solutions, web apps, and system prototypes. Mentorship from industry engineers, prizes up to $5,000, and free food/swag!",
+      "category": "TECHNICAL",
+      "eventDate": "2026-10-15",
+      "eventTime": "09:00",
+      "venue": "Computer Science Main Auditorium & Labs",
+      "organizer": "Department of Computer Science & ACM Student Chapter",
+      "capacity": 120,
+      "registrationDeadline": "2026-10-12T23:59:00",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 2,
+      "title": "Spring Rhythm: Annual Inter-College Music & Dance Fest",
+      "description": "The premier cultural event of the semester! Featuring solo acoustic battles, battle of the bands, classical fusion, street dance showdowns, and live celebrity band performances.",
+      "category": "CULTURAL",
+      "eventDate": "2026-10-22",
+      "eventTime": "17:30",
+      "venue": "Campus Open Air Amphitheater",
+      "organizer": "Student Cultural Affairs Council",
+      "capacity": 350,
+      "registrationDeadline": "2026-10-20T18:00:00",
+      "imageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 3,
+      "title": "Inter-Department Cricket & Football Championship",
+      "description": "Annual sports week kick-off tournament. 8 engineering departments battling for the prestigious Provost Champions Trophy. Referees certified by State Sports Federation.",
+      "category": "SPORTS",
+      "eventDate": "2026-11-02",
+      "eventTime": "08:00",
+      "venue": "Varsity Sports Complex & Grounds",
+      "organizer": "Athletics & Physical Education Board",
+      "capacity": 80,
+      "registrationDeadline": "2026-10-28T20:00:00",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 4,
+      "title": "International Symposium on Quantum & Cloud Computing",
+      "description": "Distinguished keynotes from research scientists at Google, IBM, and CERN. Hands-on afternoon workshops covering Qiskit quantum algorithms and cloud container orchestration.",
+      "category": "ACADEMIC",
+      "eventDate": "2026-11-10",
+      "eventTime": "10:00",
+      "venue": "Research Center Conference Hall A",
+      "organizer": "Dean of Academic Research & IEEE Branch",
+      "capacity": 150,
+      "registrationDeadline": "2026-11-05T23:59:00",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 5,
+      "title": "RoboWars: Autonomous & RC Combat Robotics",
+      "description": "High-voltage combat robotics in 15kg and 30kg battlebot categories. Includes obstacle avoidance autonomous racing and maze navigation competitions.",
+      "category": "TECHNICAL",
+      "eventDate": "2026-11-18",
+      "eventTime": "11:00",
+      "venue": "Mechanical Engineering Workshop Arena",
+      "organizer": "Robotics and Mechatronics Club",
+      "capacity": 90,
+      "registrationDeadline": "2026-11-14T22:00:00",
+      "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    },
+    {
+      "id": 6,
+      "title": "Campus Career & Tech Internship Expo 2026",
+      "description": "Connect directly with hiring managers and recruiters from 45+ premier companies looking for summer interns, co-ops, and full-time junior software engineers.",
+      "category": "ACADEMIC",
+      "eventDate": "2026-12-01",
+      "eventTime": "09:30",
+      "venue": "Grand Convention Center Hall 1 & 2",
+      "organizer": "University Career Placement Services",
+      "capacity": 300,
+      "registrationDeadline": "2026-11-25T23:59:00",
+      "imageUrl": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=80",
+      "status": "UPCOMING",
+      "createdAt": "2026-09-27T02:32:02.479Z",
+      "updatedAt": "2026-09-27T02:32:02.479Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "eventId": 1,
+      "registrationDate": "2026-09-20T14:32:00.000Z",
+      "status": "REGISTERED"
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "eventId": 5,
+      "registrationDate": "2026-09-21T16:15:00.000Z",
+      "status": "REGISTERED"
+    },
+    {
+      "id": 3,
+      "studentId": 2,
+      "eventId": 2,
+      "registrationDate": "2026-09-22T10:45:00.000Z",
+      "status": "REGISTERED"
+    },
+    {
+      "id": 4,
+      "studentId": 2,
+      "eventId": 1,
+      "registrationDate": "2026-09-23T11:20:00.000Z",
+      "status": "REGISTERED"
+    },
+    {
+      "id": 5,
+      "studentId": 1,
+      "eventId": 3,
+      "registrationDate": "2026-09-27T02:32:02.604Z",
+      "status": "CANCELLED"
+    }
+  ]
+}
